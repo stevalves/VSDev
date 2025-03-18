@@ -1,0 +1,12 @@
+Em ordem
+
+Prioridade
+- NavBar
+- Mobile
+- Categorias
+- Produtos
+
+A mais
+- Promoções (Chamar atenção com Promoções/etc)
+
+Até 20/03
