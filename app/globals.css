@@ -175,3 +175,7 @@
     @apply bg-background text-foreground;
   }
 }
+
+body {
+  transition: all .5s;
+}

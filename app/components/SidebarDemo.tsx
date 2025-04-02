@@ -22,49 +22,49 @@ export function SidebarDemo() {
       label: "Página Principal",
       href: "#",
       icon: (
-        <IconGrain className="text-neutral-700 dark:text-neutral-200 h-5 w-5 flex-shrink-0" />
+        <IconGrain className="text-neutral-700 h-5 w-5 flex-shrink-0" />
       ),
     },
     {
       label: "Minha Conta",
       href: "#",
       icon: (
-        <IconUser className="text-neutral-700 dark:text-neutral-200 h-5 w-5 flex-shrink-0" />
+        <IconUser className="text-neutral-700 h-5 w-5 flex-shrink-0" />
       ),
     },
     {
       label: "Cupons e Descontos",
       href: "#",
       icon: (
-        <IconCurrencyDollar className="text-neutral-700 dark:text-neutral-200 h-5 w-5 flex-shrink-0" />
+        <IconCurrencyDollar className="text-neutral-700 h-5 w-5 flex-shrink-0" />
       ),
     },
     {
       label: "Suporte e Ajuda",
       href: "#",
       icon: (
-        <IconHeadset className="text-neutral-700 dark:text-neutral-200 h-5 w-5 flex-shrink-0" />
+        <IconHeadset className="text-neutral-700 h-5 w-5 flex-shrink-0" />
       ),
     },
     {
       label: "Histórico de Compras",
       href: "#",
       icon: (
-        <IconHistory className="text-neutral-700 dark:text-neutral-200 h-5 w-5 flex-shrink-0" />
+        <IconHistory className="text-neutral-700 h-5 w-5 flex-shrink-0" />
       ),
     },
     {
       label: "Cofigurações",
       href: "#",
       icon: (
-        <IconSettings className="text-neutral-700 dark:text-neutral-200 h-5 w-5 flex-shrink-0" />
+        <IconSettings className="text-neutral-700 h-5 w-5 flex-shrink-0" />
       ),
     },
     {
       label: "Sair",
       href: "#",
       icon: (
-        <IconArrowLeft className="text-neutral-700 dark:text-neutral-200 h-5 w-5 flex-shrink-0" />
+        <IconArrowLeft className="text-neutral-700 h-5 w-5 flex-shrink-0" />
       ),
     },
   ];

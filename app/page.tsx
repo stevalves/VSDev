@@ -1,6 +1,7 @@
 import { CarouselDemo } from "./components/CarouselDemo";
 import SubHeader from "./components/Header/SubHeader";
 import Header from "./components/Header/Header";
+import { Navbar } from "./components/NavBarDemo";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
           <header>
             <SubHeader />
             <Header />
+            <Navbar />
           </header>
           <div id="hero">
             <CarouselDemo />

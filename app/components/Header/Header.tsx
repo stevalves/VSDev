@@ -2,7 +2,7 @@ import { IconBuildingStore, IconSearch, IconHeart, IconShoppingCart } from "@tab
 
 const Header = () => {
   return (
-    <div id="header" className="w-full h-36 bg-gray-100">
+    <div id="header" className="w-full h-32 bg-gray-100 border-b border-b-gray-600/20">
       <div className="container mx-auto px-12 flex justify-between items-center h-full">
         <h1 className="flex items-center text-contrast">
           <IconBuildingStore className="w-10 h-10 mr-2" />{" "}
@@ -11,7 +11,7 @@ const Header = () => {
         </h1>
         <div
           id="seach-input"
-          className="text-contrast flex justify-center items-center border border-contrast/25 rounded-lg"
+          className="text-contrast flex flex-row-reverse justify-center items-center border border-contrast/25 rounded-lg"
         >
           <button className="cursor-pointer w-full h-full p-2">
             <IconSearch />

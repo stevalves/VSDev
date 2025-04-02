@@ -1,9 +1,8 @@
 import {
   IconBrandWhatsapp,
   IconMail,
-  IconMoon,
-  IconSun,
 } from "@tabler/icons-react";
+import ThemeToggle from "../ToggleTheme";
 
 const SubHeader = () => {
   return (
@@ -18,10 +17,7 @@ const SubHeader = () => {
             +55 14 99123-4567
           </a>
         </div>
-        <button className="flex gap-2 text-gray-100">
-          <IconSun />
-          <IconMoon />
-        </button>
+        <ThemeToggle />
       </div>
     </div>
   );

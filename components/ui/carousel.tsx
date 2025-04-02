@@ -27,7 +27,7 @@ const Slide = ({ slide, index, current }: SlideProps) => {
   return (
     <li
       ref={slideRef}
-      className="flex flex-1 flex-col shrink-0 group items-center relative justify-center text-center text-white opacity-100 transition-all duration-300 ease-in-out h-[70vmin] z-10"
+      className="flex flex-1 flex-col shrink-0 group items-center relative justify-center text-center text-white opacity-100 transition-all duration-300 ease-in-out h-[60vmin] z-10"
       style={{
         transition: "transform 0.5s cubic-bezier(0.4, 0, 0.2, 1)",
         transformOrigin: "bottom",
@@ -74,13 +74,13 @@ const CarouselControl = ({
 }: CarouselControlProps) => {
   return (
     <button
-      className={`w-10 h-10 cursor-pointer flex items-center mx-2 justify-center bg-gray-100 dark:bg-neutral-800 border-3 border-transparent rounded-full hover:-translate-y-0.5 active:translate-y-0.5 transition duration-200 ${
+      className={`w-10 h-10 cursor-pointer flex items-center mx-2 justify-center bg-gray-100 border-3 border-transparent rounded-full hover:-translate-y-0.5 active:translate-y-0.5 transition duration-200 ${
         type === "previous" ? "rotate-180" : ""
       }`}
       title={title}
       onClick={handleClick}
     >
-      <IconArrowNarrowRight className="text-contrast dark:text-graybg-gray-100" />
+      <IconArrowNarrowRight className="text-contrast" />
     </button>
   );
 };
@@ -115,7 +115,7 @@ export default function Carousel({ slides }: CarouselProps) {
 
   return (
     <div
-      className="relative h-[70vmin]"
+      className="relative h-[60vmin]"
       aria-labelledby={`carousel-heading-${id}`}
     >
       <ul
