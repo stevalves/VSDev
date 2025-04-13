@@ -1,14 +1,25 @@
-import { IconBuildingStore, IconSearch, IconHeart, IconShoppingCart } from "@tabler/icons-react";
+import {
+  IconBuildingStore,
+  IconSearch,
+  IconHeart,
+  IconShoppingCart,
+} from "@tabler/icons-react";
+import Link from "next/link";
 
 const Header = () => {
   return (
-    <div id="header" className="w-full h-32 bg-gray-100 border-b border-b-gray-600/20">
+    <div
+      id="header"
+      className="w-full h-32 bg-gray-100 border-b border-b-gray-600/20"
+    >
       <div className="container mx-auto px-12 flex justify-between items-center h-full">
-        <h1 className="flex items-center text-contrast">
-          <IconBuildingStore className="w-10 h-10 mr-2" />{" "}
-          <span className="font-logo-1 font-bold text-3xl">Loja</span>{" "}
-          <span className="font-logo-2 text-2xl font-medium">Exemplo</span>
-        </h1>
+        <Link href={"/"}>
+          <h1 className="flex items-center text-contrast">
+            <IconBuildingStore className="w-10 h-10 mr-2" />{" "}
+            <span className="font-logo-1 font-bold text-3xl">Loja</span>{" "}
+            <span className="font-logo-2 text-2xl font-medium">Exemplo</span>
+          </h1>
+        </Link>
         <div
           id="seach-input"
           className="text-contrast flex flex-row-reverse justify-center items-center border border-contrast/25 rounded-lg"
@@ -35,4 +46,4 @@ const Header = () => {
   );
 };
 
-export default Header
+export default Header;
