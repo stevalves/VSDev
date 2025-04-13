@@ -52,7 +52,7 @@ const Slide = ({ slide, index, current }: SlideProps) => {
           {title}
         </h2>
         <div className="flex justify-center">
-          <button className="cursor-pointer hover:bg-white/80 mt-6 px-4 py-2 w-fit mx-auto sm:text-sm text-black bg-white group-hover:opacity-100 opacity-70 h-12 border border-transparent text-xs flex justify-center items-center rounded-2xl hover:shadow-lg transition duration-300 shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)]">
+          <button className="cursor-pointer hover:bg-white/80 mt-6 px-3 md:px-4 md:py-2 w-fit mx-auto sm:text-sm text-black bg-white group-hover:opacity-100 opacity-70 h-12 border border-transparent text-xs flex justify-center items-center rounded-2xl hover:shadow-lg transition duration-300 shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)]">
             {button}
           </button>
         </div>
@@ -74,7 +74,7 @@ const CarouselControl = ({
 }: CarouselControlProps) => {
   return (
     <button
-      className={`w-10 h-10 cursor-pointer flex items-center mx-2 justify-center bg-gray-100 border-3 border-transparent rounded-full hover:-translate-y-0.5 active:translate-y-0.5 transition duration-200 ${
+      className={`md:w-10 md:h-10 cursor-pointer flex items-center mx-2 justify-center bg-gray-100 border-3 border-transparent rounded-full hover:-translate-y-0.5 active:translate-y-0.5 transition duration-200 ${
         type === "previous" ? "rotate-180" : ""
       }`}
       title={title}
